@@ -1,0 +1,153 @@
+/* 1 */
+* {
+    font-family: Roboto, sans-serif;
+    color: #222;
+    line-height: 1.4;
+    /*I set font-size to 100 because 110 is not same as the screenshot*/
+    font-size: 100%;
+    background-color: white;
+  }
+/* 2 */
+body {
+  margin: 0;
+}
+/* 3 */
+html {
+    box-sizing: border-box;
+  }
+
+/* 4 */
+img {
+    width: 100%;
+  }
+/* 5 */
+.logo {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+/* 7 */
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    padding: 1.5em 0;
+    /* I added transparency to it because the screenshot has it*/
+    background-color: transparent;
+}
+/* 8 */
+header {
+    padding: 1.5em 0;
+}
+/* 9 */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+}
+nav li{
+    display: inline-block; 
+}
+/* 10 */
+nav a {
+    display: block;
+    padding: .5em .75em;
+    border-radius: 8px;
+}
+/* 11 */  
+nav a:link,
+nav a:visited {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+/* 12 */  
+nav a:hover,
+nav a:focus {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+}
+/* 13 */  
+.hero {
+    width: 100%;
+    padding: 10em 0;
+    background-image: url("../images/greatest-90s-fashion-trends.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+/* 14. */
+.hero h1 {
+    width: 75%;
+    padding: 0.5em;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.25);
+  }
+  
+/* 15. */
+section.trends {
+    background-color: purple;
+    
+} 
+/* 16. */
+section.trends figure {
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+} 
+/* 17. */
+figcaption {
+    color: white;
+    font-style: italic;
+    background-color: transparent;
+
+}
+  
+/* Task 18 */
+.icon {
+    display: block;
+    padding: 2em 0;
+  }
+  
+/* Task 19 */
+.icon img {
+    width: 260px;
+    float: left;
+    margin-right: 2em;
+}
+  
+/* 20. */
+.fashion-icons .icon:last-of-type + p {
+    clear: left;
+  }
+  
+/* 21. */
+.featured-articles {
+    display: none;
+}
+  
+/* 22. */
+footer {
+  background-color: black;
+  color: white;
+}
+/* 23. */
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* add style to small element */
+footer p small{
+    background-color: black;
+    color: white;
+
+}
